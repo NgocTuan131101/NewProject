@@ -7,7 +7,7 @@ import android.util.Log;
 
 public class Activitytextdemo extends AppCompatActivity {
     private final String TAG = getClass().getSimpleName();
-    protected void onCreate(@Nullable @androidx.annotation.Nullable Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d(TAG,"onCreate: ");
         setContentView(R.layout.activity_demotest);
